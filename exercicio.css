@@ -41,3 +41,56 @@
 
 .instinto-selvagem { }
 .instinto-selvagem img { }
+
+
+#controles ul{
+	transition: transform 1s ease;
+}
+
+
+
+ 
+
+ 
+
+
+
+#cachorro img{
+	left:0 right:50px; width: 200px; height: 200px;
+}
+
+#coelho img{
+	edukids.sprite-coelho{ background-position: 0 -250px; width: 200px; height: 200px; }
+}
+
+#desconhecido img{
+	edukids.sprite-desconhecido{ background-position: 0 -500px; width: 200px; height: 200px; } 
+}
+
+#gato img{
+	edukids.sprite-gato{ background-position: 0 -750px; width: 200px; height: 200px; } 
+}
+
+#girafa img{
+	edukids.sprite-girafa{ background-position: 0 -1000px; width: 200px; height: 200px; } 
+}
+
+#hipopotamo img{
+	edukids.sprite-hipopotamo{ background-position: 0 -1250px; width: 200px; height: 200px; } 
+}
+
+#leao img{
+	edukids.sprite-leao{ background-position: 0 -1500px; width: 200px; height: 200px; } 
+}
+
+#peixe img{
+	edukids.sprite-peixe{ background-position: 0 -1750px; width: 200px; height: 200px; }
+}
+
+#rato img{
+	edukids.sprite-rato{ background-position: -250px 0; width: 200px; height: 200px; } 
+}
+
+#urso img{
+	edukids.sprite-urso{ background-position: -250px -250px; width: 200px; height: 200px; } 
+}
