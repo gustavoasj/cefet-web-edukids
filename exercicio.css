@@ -29,6 +29,7 @@
  *   - alimentado: uma borda verde no animal e o animal fica girando de alegria
  *   - perturbado: animal fica pulsando
  *   - instinto-selvagem: animal dá um salto e cresce, com uma borda vermelha
+ *		diferenca de 10px do sprite
  */
 .agitado { }
 .agitado img { }
@@ -42,55 +43,115 @@
 .instinto-selvagem { }
 .instinto-selvagem img { }
 
+.animal{
+	border-radius: 100px;
+}
+
+.animal img{
+	width: 2090px;
+}
+
 
 #controles ul{
 	transition: transform 1s ease;
 }
 
-
-
- 
-
- 
-
-
+#cachorro{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
+}
 
 #cachorro img{
-	left:0 right:50px; width: 200px; height: 200px;
+	 position: absolute;
+	 left:0; top:0;  
+}
+
+#coelho{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #coelho img{
-	edukids.sprite-coelho{ background-position: 0 -250px; width: 200px; height: 200px; }
+	position: absolute;
+	left:-210px; top:0;
 }
 
-#desconhecido img{
-	edukids.sprite-desconhecido{ background-position: 0 -500px; width: 200px; height: 200px; } 
+.desconhecido{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
+}
+
+.desconhecido img{
+	position: absolute;
+	left:-420px; top:0;
+}
+
+#gato{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #gato img{
-	edukids.sprite-gato{ background-position: 0 -750px; width: 200px; height: 200px; } 
+	position: absolute;
+	left:-630px; top:0;
+}
+
+#girafa{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #girafa img{
-	edukids.sprite-girafa{ background-position: 0 -1000px; width: 200px; height: 200px; } 
+	position: absolute;
+	left:-840px; top:0;
+}
+
+#hipopotamo{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #hipopotamo img{
-	edukids.sprite-hipopotamo{ background-position: 0 -1250px; width: 200px; height: 200px; } 
+	position: absolute;
+	left:-1050px; top:0;
+}
+
+#leao{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #leao img{
-	edukids.sprite-leao{ background-position: 0 -1500px; width: 200px; height: 200px; } 
+	position: absolute;
+	left:-1260px; top:0;
+}
+
+#peixe{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #peixe img{
-	edukids.sprite-peixe{ background-position: 0 -1750px; width: 200px; height: 200px; }
+	position: absolute;
+	left:-1470px; top:0;
+}
+
+#rato{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #rato img{
-	edukids.sprite-rato{ background-position: -250px 0; width: 200px; height: 200px; } 
+	position: absolute;
+	left:-1680px; top:0;
+}
+
+#urso{
+	width: 200px; height: 200px;
+	overflow: hidden; position: relative; 
 }
 
 #urso img{
-	edukids.sprite-urso{ background-position: -250px -250px; width: 200px; height: 200px; } 
+	position: absolute;
+	left:-1890px; top:0; 
 }
